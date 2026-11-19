@@ -1,0 +1,69 @@
+$ /usr/bin/python3 /kaggle/working/ALETHIA/run.py --input /tmp/alethia_work/chunk --output /tmp/alethia_work/chunk.jsonl --timing-json /kaggle/working/ALETHIA/results/logs/train-00000-of-01357..train-00004-of-01357.timing.json
+[run.py 22:45:00] 5 parquet file(s), 3 decode workers, devices ['cuda:0', 'cuda:1'] x2, batch 32, sample_fps 10
+[run.py 22:46:00]      60s | videos done 1 ok / 0 err, active 3, queued 6 | frames inferred 7264 (120.7/s) | decoded 4994
+[run.py 22:47:00]     120s | videos done 2 ok / 0 err, active 5, queued 6 | frames inferred 14368 (119.6/s) | decoded 14181
+[run.py 22:48:00]     180s | videos done 6 ok / 0 err, active 5, queued 6 | frames inferred 25408 (141.0/s) | decoded 50661
+[run.py 22:49:00]     240s | videos done 9 ok / 0 err, active 5, queued 6 | frames inferred 35968 (149.7/s) | decoded 74077
+[run.py 22:50:00]     300s | videos done 14 ok / 0 err, active 5, queued 6 | frames inferred 47552 (158.4/s) | decoded 115408
+[run.py 22:51:00]     360s | videos done 18 ok / 0 err, active 5, queued 6 | frames inferred 59008 (163.8/s) | decoded 152723
+[run.py 22:52:00]     420s | videos done 21 ok / 0 err, active 5, queued 6 | frames inferred 70112 (166.8/s) | decoded 174867
+[run.py 22:53:00]     480s | videos done 24 ok / 0 err, active 6, queued 6 | frames inferred 82048 (170.8/s) | decoded 219537
+[run.py 22:54:00]     540s | videos done 32 ok / 0 err, active 4, queued 6 | frames inferred 91417 (169.2/s) | decoded 245599
+[run.py 22:55:00]     600s | videos done 34 ok / 0 err, active 4, queued 6 | frames inferred 100313 (167.1/s) | decoded 258501
+[run.py 22:56:00]     660s | videos done 36 ok / 0 err, active 4, queued 6 | frames inferred 110489 (167.3/s) | decoded 274509
+[run.py 22:57:00]     720s | videos done 39 ok / 0 err, active 4, queued 6 | frames inferred 121113 (168.1/s) | decoded 311297
+[run.py 22:58:00]     780s | videos done 44 ok / 0 err, active 4, queued 6 | frames inferred 129017 (165.3/s) | decoded 344781
+[run.py 22:59:00]     840s | videos done 47 ok / 0 err, active 5, queued 6 | frames inferred 137753 (163.9/s) | decoded 378723
+[run.py 23:00:00]     900s | videos done 51 ok / 0 err, active 6, queued 6 | frames inferred 148121 (164.5/s) | decoded 394874
+[run.py 23:01:00]     960s | videos done 54 ok / 0 err, active 6, queued 6 | frames inferred 158521 (165.1/s) | decoded 426724
+[run.py 23:02:00]    1020s | videos done 56 ok / 0 err, active 6, queued 6 | frames inferred 169081 (165.7/s) | decoded 444330
+[run.py 23:03:01]    1081s | videos done 58 ok / 0 err, active 6, queued 6 | frames inferred 178265 (165.0/s) | decoded 475876
+[run.py 23:04:01]    1141s | videos done 63 ok / 0 err, active 6, queued 6 | frames inferred 188985 (165.7/s) | decoded 514216
+[run.py 23:05:01]    1201s | videos done 67 ok / 0 err, active 6, queued 6 | frames inferred 199993 (166.6/s) | decoded 532339
+[run.py 23:06:01]    1261s | videos done 69 ok / 0 err, active 6, queued 6 | frames inferred 210777 (167.2/s) | decoded 568904
+[run.py 23:07:01]    1321s | videos done 72 ok / 0 err, active 6, queued 6 | frames inferred 221241 (167.5/s) | decoded 610711
+[run.py 23:08:01]    1381s | videos done 72 ok / 0 err, active 6, queued 6 | frames inferred 229721 (166.4/s) | decoded 610711
+[run.py 23:09:01]    1441s | videos done 76 ok / 0 err, active 6, queued 6 | frames inferred 240921 (167.2/s) | decoded 661439
+[run.py 23:10:01]    1501s | videos done 78 ok / 0 err, active 6, queued 6 | frames inferred 251929 (167.9/s) | decoded 687190
+[run.py 23:11:01]    1561s | videos done 82 ok / 0 err, active 6, queued 6 | frames inferred 263001 (168.5/s) | decoded 724143
+[run.py 23:12:01]    1621s | videos done 84 ok / 0 err, active 6, queued 6 | frames inferred 273625 (168.8/s) | decoded 735685
+[run.py 23:13:01]    1681s | videos done 88 ok / 0 err, active 6, queued 6 | frames inferred 285401 (169.8/s) | decoded 776302
+[run.py 23:14:01]    1741s | videos done 91 ok / 0 err, active 7, queued 6 | frames inferred 297689 (171.0/s) | decoded 819082
+[run.py 23:15:01]    1801s | videos done 98 ok / 0 err, active 5, queued 6 | frames inferred 307481 (170.7/s) | decoded 841231
+[run.py 23:16:01]    1861s | videos done 104 ok / 0 err, active 7, queued 6 | frames inferred 316601 (170.1/s) | decoded 862197
+[run.py 23:17:01]    1921s | videos done 105 ok / 0 err, active 7, queued 6 | frames inferred 324633 (169.0/s) | decoded 881067
+[run.py 23:18:01]    1981s | videos done 107 ok / 0 err, active 7, queued 6 | frames inferred 331897 (167.5/s) | decoded 893285
+[run.py 23:19:01]    2041s | videos done 111 ok / 0 err, active 6, queued 6 | frames inferred 342580 (167.9/s) | decoded 935971
+[run.py 23:20:01]    2101s | videos done 114 ok / 0 err, active 6, queued 6 | frames inferred 352557 (167.8/s) | decoded 967411
+[run.py 23:21:01]    2161s | videos done 117 ok / 0 err, active 6, queued 6 | frames inferred 364937 (168.9/s) | decoded 1000332
+[run.py 23:22:01]    2221s | videos done 120 ok / 0 err, active 7, queued 6 | frames inferred 374089 (168.4/s) | decoded 1026586
+[run.py 23:23:01]    2281s | videos done 123 ok / 0 err, active 9, queued 6 | frames inferred 382825 (167.8/s) | decoded 1066701
+[run.py 23:24:01]    2341s | videos done 129 ok / 0 err, active 8, queued 6 | frames inferred 394468 (168.5/s) | decoded 1099011
+[run.py 23:25:01]    2401s | videos done 134 ok / 0 err, active 7, queued 6 | frames inferred 406404 (169.3/s) | decoded 1134278
+[run.py 23:26:01]    2461s | videos done 138 ok / 0 err, active 7, queued 6 | frames inferred 417632 (169.7/s) | decoded 1157579
+[run.py 23:27:01]    2521s | videos done 142 ok / 0 err, active 7, queued 6 | frames inferred 428280 (169.9/s) | decoded 1197643
+[run.py 23:28:01]    2581s | videos done 145 ok / 0 err, active 7, queued 6 | frames inferred 439889 (170.4/s) | decoded 1225087
+[run.py 23:29:01]    2641s | videos done 148 ok / 0 err, active 7, queued 6 | frames inferred 450769 (170.7/s) | decoded 1259461
+[run.py 23:30:01]    2701s | videos done 151 ok / 0 err, active 8, queued 6 | frames inferred 461157 (170.7/s) | decoded 1287519
+[run.py 23:31:02]    2762s | videos done 156 ok / 0 err, active 6, queued 3 | frames inferred 470060 (170.2/s) | decoded 1308447
+[run.py 23:32:02]    2822s | videos done 159 ok / 0 err, active 6, queued 0 | frames inferred 479148 (169.8/s) | decoded 1328995
+
+================ timing breakdown ================
+wall time                        2869.7 s
+videos                       165 ok, 0 with error line  (worker restarts 0, reader restarts 0)
+frames decoded / sampled     1367944 / 486703   -> 486703 inferred (169.6 frames/s overall)
+output lines                 48746
+-- GPU (main process) --
+devices                      cuda:0, cuda:1 x 2 thread(s), batch 32, fp16
+model load (max over thr.)          9.8 s
+first batch started at              8.8 s
+GPU busy (>=1 thread)            2860.4 s   (100.0% of the time after the first batch)
+GPU starved = decode wait           0.5 s   (  0.0%)
+  per-thread sums: copy 164.2 s, forward+NMS 11266.4 s, waiting for batches 3.6 s
+  batches 15221, mean size 32.0, padding frames 186
+-- decode workers (3 processes, sums; per worker = sum / 3) --
+decode (demux+decode)            1794.8 s   (598.3 s per worker)
+to BGR (sampled only)            1960.8 s   (653.6 s per worker)
+rotate + letterbox                103.7 s   (34.6 s per worker)
+blocked on free slots (GPU)      4321.2 s   (1440.4 s per worker)
+==================================================

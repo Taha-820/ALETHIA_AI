@@ -1,0 +1,12 @@
+run.py output vs. the every-frame FP32 reference (tests/reference.py) on the first 6 videos x 60s of train-00000-of-01357.jsonl.gz
+(only reference seconds are scored)
+
+seconds in reference 324, missing from results 0, extra in results 8820
+error lines: reference 0, results 0
+object F1        0.9810   (tp 181, fp 6, fn 1)   need >= 0.95  PASS
+people exact     0.9660   need >= 0.85  PASS
+people within 1  1.0000   need >= 0.95  PASS
+  car         F1 0.8750  (tp 7, fp 2, fn 0)
+  cell phone  F1 1.0000  (tp 5, fp 0, fn 0)
+  laptop      F1 0.6667  (tp 1, fp 1, fn 0)
+  person      F1 0.9882  (tp 168, fp 3, fn 1)
