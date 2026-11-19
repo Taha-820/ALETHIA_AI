@@ -1072,7 +1072,7 @@ def parse_args(argv=None):
     p.add_argument("--batch", type=int, default=32, help="max frames per GPU batch")
     p.add_argument("--workers", type=int, default=max(1, ncpu - 1), help="decode processes (default: CPUs - 1)")
     p.add_argument("--decode-threads", type=int, default=1, help="FFmpeg threads per decode process")
-    p.add_argument("--sample-fps", type=int, default=5, help="frames sampled per second of video; 0 = every frame")
+    p.add_argument("--sample-fps", type=int, default=10, help="frames sampled per second of video; 0 = every frame")
     p.add_argument("--threads-per-device", type=int, default=None, help="GPU threads (model copies) per device")
     p.add_argument("--slots-per-worker", type=int, default=None, help="shared-memory frame slots per worker")
     p.add_argument("--fp32", action="store_true", help="disable FP16 on CUDA")
