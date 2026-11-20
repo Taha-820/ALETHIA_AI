@@ -1,0 +1,33 @@
+{
+ "wall_s": 2836.476,
+ "videos_ok": 165,
+ "videos_err": 0,
+ "worker_restarts": 0,
+ "reader_restarts": 0,
+ "frames_decoded": 1387088,
+ "frames_sampled": 492185,
+ "frames_inferred": 492185,
+ "output_lines": 49291,
+ "devices": [
+  "cuda:0",
+  "cuda:1"
+ ],
+ "threads_per_device": 2,
+ "batch": 32,
+ "sample_fps": 10,
+ "workers": 3,
+ "precision": "fp16",
+ "model_load_s": 12.101,
+ "first_batch_at_s": 11.298,
+ "gpu_busy_s": 2824.723,
+ "gpu_starved_s": 0.455,
+ "gpu_thread_copy_s": 164.623,
+ "gpu_thread_infer_s": 11123.768,
+ "gpu_thread_wait_s": 3.241,
+ "batches": 15394,
+ "padded_frames": 269,
+ "worker_decode_s": 1803.041,
+ "worker_convert_s": 2082.882,
+ "worker_letterbox_s": 93.115,
+ "worker_slot_wait_s": 4117.371
+}
