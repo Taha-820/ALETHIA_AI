@@ -64,16 +64,29 @@
    "exit_code": 0,
    "lines": 44739,
    "finished": "2026-11-20 02:32:52"
+  },
+  {
+   "files": [
+    "train-00025-of-01357",
+    "train-00026-of-01357",
+    "train-00027-of-01357",
+    "train-00028-of-01357",
+    "train-00029-of-01357"
+   ],
+   "seconds": 2634.1,
+   "exit_code": 0,
+   "lines": 47000,
+   "finished": "2026-11-20 03:16:50"
   }
  ],
  "sessions": [
   {
    "started": "2026-11-19 22:41:05",
    "start_epoch": 1795128065.6,
-   "end_epoch": 1795141972.9,
-   "files_processed": 25
+   "end_epoch": 1795144610.2,
+   "files_processed": 30
   }
  ],
- "total_seconds_in_run_py": 13663.5,
- "total_session_wall_seconds": 13907.3
+ "total_seconds_in_run_py": 16297.6,
+ "total_session_wall_seconds": 16544.6
 }
