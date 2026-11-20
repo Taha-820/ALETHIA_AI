@@ -10,14 +10,15 @@ Settings: 10 fps sampling, fp16, batch 32, 3 decode workers, devices cuda:0, cud
 | train-00015-of-01357..train-00019-of-01357 | 47 min 16 s | 1387088 | 492185 | 173.5 | 99.6% | 0.0% |
 | train-00020-of-01357..train-00024-of-01357 | 43 min 04 s | 1248344 | 446653 | 172.9 | 99.5% | 0.0% |
 | train-00025-of-01357..train-00029-of-01357 | 43 min 50 s | 1333625 | 469172 | 178.4 | 99.6% | 0.0% |
-| **total** | **4 h 31 min** | 7955571 | 2823753 | 173.5 | 99.6% | 0.0% |
+| train-00030-of-01357..train-00034-of-01357 | 42 min 17 s | 1271872 | 447360 | 176.3 | 99.6% | 0.0% |
+| **total** | **5 h 13 min** | 9227443 | 3271113 | 173.9 | 99.6% | 0.0% |
 
 Totals over all chunks:
 
-* GPU busy (at least one GPU thread working): 4 h 30 min (99.6% of wall)
-* GPU starved, i.e. waiting for decoded frames: 0 min 03 s (0.0%)
-* Model loading: 1 min 09 s
-* GPU threads, summed over threads: host copy 15 min 56 s, forward + NMS 17 h 42 min
-* Decode workers, summed over 3 processes (divide by 3 for wall-clock share): demux+decode 2 h 51 min, BGR conversion 3 h 16 min, rotate+letterbox 10 min 03 s, blocked waiting for free slots (GPU back-pressure) 6 h 35 min
+* GPU busy (at least one GPU thread working): 5 h 12 min (99.6% of wall)
+* GPU starved, i.e. waiting for decoded frames: 0 min 04 s (0.0%)
+* Model loading: 1 min 20 s
+* GPU threads, summed over threads: host copy 18 min 30 s, forward + NMS 20 h 28 min
+* Decode workers, summed over 3 processes (divide by 3 for wall-clock share): demux+decode 3 h 20 min, BGR conversion 3 h 47 min, rotate+letterbox 11 min 55 s, blocked waiting for free slots (GPU back-pressure) 7 h 33 min
 
 How to read it: when 'GPU starved' is large and 'blocked waiting for free slots' is near zero, decoding is the bottleneck; when the GPU is busy almost all the time and the workers spend time blocked on slots, the GPU is the bottleneck.
